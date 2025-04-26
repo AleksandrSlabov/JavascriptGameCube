@@ -1,0 +1,217 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+   */
+/* html{
+    font-size: 62.5%;
+} */
+ body{
+    background: linear-gradient(to bottom right,   rgb(240, 218, 19) 30% , rgb(253, 93, 0) 70%)
+
+ }
+ main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+    width: 50rem;
+    height: 30rem;
+    padding: 1rem;
+    border-radius: 10px;
+
+
+
+}
+.playerScore{
+    z-index: 1;
+
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.player1 {
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+
+
+    justify-content: center;
+
+
+
+
+
+}
+.gamer {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.score {
+    color: rgb(230, 101, 10);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.gamescore {
+    background-color: rgb(243, 153, 126);
+
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.newScore {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.spanScore {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(250, 20, 3);
+
+}
+.BlocknewGame {
+
+   position: absolute;
+   z-index: 5;
+
+    height: 80%;
+    width: 10rem;
+
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.NewGame:hover{
+    font-size: 2rem;
+    background-color: red;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+.NewGame {
+    margin: 10px;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(193, 193, 223);
+
+
+
+}
+.cube {
+   display: block;
+   width: 10rem;
+   height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resultBlock {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.startCube {
+    margin: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(193, 193, 223);
+
+}
+.startCube:hover{
+    font-size: 2rem;
+    background-color: red;
+    color: white;
+    transition: 0.1s ease-in-out;
+
+}
+.SaveCube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(193, 193, 223);
+}
+.SaveCube:hover{
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+.img{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+.player2 {
+    position: relative;
+    z-index: 1;
+    
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+border-radius: 10px;}
+
+
+.spanScore2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(250, 20, 3);
+
+}
+.score2{
+    color: rgb(230, 101, 10);
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+
+
+
+    .hidden{
+        display: none;
+    }
+
+
+    .myGame{
+        background-color: rgb(139, 235, 61);
+
+    }
